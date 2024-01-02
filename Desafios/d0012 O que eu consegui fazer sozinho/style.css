@@ -15,14 +15,11 @@ header {
 }
 
 header > h1 {
-    font-size: 56px;
+    font-size: 16vh;
     font-family: 'Passion One', Arial, sans-serif;
     padding: 32px;
     margin-bottom: 16px;
-}
-
-header p {
-    margin: -16px;
+    height: 29vh;
 }
 
 header a {
@@ -34,11 +31,29 @@ header a:hover {
     text-decoration: underline;
 }
 
-section {
-    position: absolute;
+div#backimgflor {
+    color: white;
+    width: 100vh;
+    height: 60vh;
+    background-size: cover;
+    background-image: url(imagens/background001.jpg);
+    background-position: center right;
+    background-attachment: fixed;
+}
+
+div#backimglivro {
+    color: white;
+    width: 100vh;
+    height: 60vh;
+    background-size: cover;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
 }
 
 section p {
+    padding-left: 28px;
+    padding-top: 4em;
     font-size: 21px;
+    width: 36vh;
     font-family: 'Sriracha', Arial, serif;
 }
