@@ -57,3 +57,14 @@ section p {
     width: 36vh;
     font-family: 'Sriracha', Arial, serif;
 }
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
